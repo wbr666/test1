@@ -1,0 +1,71 @@
+body{
+    background-color: aqua;
+}
+
+#main{
+    width: 1500px;
+    height: 700px;
+    background-color: pink;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.son{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+div[ref="a"]{
+    background-color: rebeccapurple;
+}
+
+[ref="b"]{
+    background-color: red;
+}
+
+[ref="d"]{
+    background-color: green;
+}
+
+[ref="e"]{
+    background-color: blue;
+}
+
+[ref="e"]::after{
+    content: '啦啦啦';
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    /* visibility: hidden; */
+}
+
+li:last-child{
+    color: purple;
+}
+
+li:first-child{
+    color: white;
+}
+
+li:nth-child(2){
+    color: bisque;
+}
+
+li:nth-child(3){
+    color: darkgreen;
+    /* line-height: 10px; */
+    height: 10px;
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    margin-top: 10px;
+    padding: 30px;
+    color: aliceblue;
+}
